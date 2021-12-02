@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dp"
+        android:text="Welcome!"
+        android:textSize="20dip"
+        android:layout_marginTop="10dip"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_height="wrap_content"
+        android:text="Add new user"
+        android:layout_width="200dip"
+        android:layout_marginTop="50dip"
+        android:layout_centerHorizontal="true"/>
+     <Button
+        android:id="@+id/btn_list"
+        android:layout_height="wrap_content"
+        android:text="List users"
+        android:layout_width="200dip"
+        android:layout_marginTop="100dip"
+        android:layout_centerHorizontal="true"/>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dp"
+        android:text="User with the most subjects:"
+        android:textStyle="bold"
+        android:textSize="15dip"
+        android:layout_marginTop="200dip"
+        android:layout_centerHorizontal="true"/>
+     <TextView
+        android:id="@+id/user_most_subjects"
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dp"
+        android:textSize="15dip"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="220dip"
+        android:layout_centerHorizontal="true"/>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dp"
+        android:text="Users over 30:"
+        android:textStyle="bold"
+        android:textSize="15dip"
+        android:layout_marginTop="260dip"
+        android:layout_centerHorizontal="true"/>
+     <TextView
+        android:id="@+id/users_over_30"
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dp"
+        android:textSize="15dip"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="280dip"
+        android:layout_centerHorizontal="true"/>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dp"
+        android:text="Number of users from Budapest:"
+        android:textStyle="bold"
+        android:textSize="15dip"
+        android:layout_marginTop="320dip"
+        android:layout_centerHorizontal="true"/>
+     <TextView
+        android:id="@+id/users_from_budapest"
+        android:layout_width="wrap_content"
+        android:layout_height="27.0dp"
+        android:textSize="15dip"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="340dip"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
